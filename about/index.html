@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Redirect Page</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+        }
+        
+        .container {
+            text-align: center;
+        }
+        
+        .message {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+        
+        .redirect-link {
+            font-size: 18px;
+            color: #0066cc;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="message">
+            <p>You are being redirected.</p>
+            <p>If you are not redirected, click the link below:</p>
+        </div>
+        <a class="redirect-link" href="https://1drv.ms/b/s!AhE4BOHWKnzthEWchGdRfTYJSMVo?e=gO5hrU">Click here.</a>
+    </div>
+
+    <script>
+        setTimeout(function() {
+            window.location.href = "https://1drv.ms/b/s!AhE4BOHWKnzthEWchGdRfTYJSMVo?e=gO5hrU";
+        }, 5000); // Redirect after 5 seconds
+    </script>
+</body>
+</html>
